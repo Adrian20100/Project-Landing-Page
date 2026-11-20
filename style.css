@@ -105,4 +105,25 @@ a {
 
 .hero-section {
   background-color: #1f2937;
+  display: flex;
+  padding: 120px;
+}
+
+.hero-text {
+  width: 50%;
+}
+
+.hero-img {
+  width: 50%;
+  background-color: grey;
+}
+.main-text {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
 }
