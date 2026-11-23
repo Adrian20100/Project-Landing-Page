@@ -107,15 +107,22 @@ a {
   background-color: #1f2937;
   display: flex;
   padding: 120px;
+  justify-content: space-between;
 }
 
 .hero-text {
-  width: 50%;
+  width: 35%;
 }
 
 .hero-img {
-  width: 50%;
+  width: 45%;
   background-color: grey;
+  height: 300px;
+}
+img {
+  text-align: center;
+  line-height: 300px;
+  color: #f9faf8;
 }
 .main-text {
   font-size: 48px;
@@ -126,4 +133,13 @@ a {
 .secondary-text {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.hero-button {
+  background-color: #3882f6;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 30px;
+  color: #e5e7eb;
+  font-weight: 500;
 }
